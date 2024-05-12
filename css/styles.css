@@ -1,0 +1,80 @@
+*,
+::before,
+::after{
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid red; */
+    box-sizing: border-box;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    --text-padding: 100px;
+}
+.main{
+    height: 80vh;
+    width: 100%;
+    background-color:aliceblue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: var(--text-padding);
+}
+.name span{
+    background-color:lightskyblue;
+    padding: 5px;
+}
+
+.uni span{
+    background-color:palegreen;
+    padding: 2px;
+}
+h1{
+    font-size: 3rem;
+}
+a{
+    color: black;
+    text-decoration: none;
+    font-size: 1.5rem;
+    padding: 0 10px;
+}
+.contact{
+    height: 20vh;
+    display: flex;
+    align-items: end;
+    background-color:aliceblue;
+}
+.main img{
+    border: 3px dashed black;
+    border-radius: 25px;
+}
+
+.icons{
+    height: 20vh;
+    background-color:rgba(135, 206, 250, 0.385);
+    display: flex;
+    text-align: center;
+    justify-content:space-evenly;
+    flex-direction: column;
+}
+.tech img{
+    height: 60px;
+}
+
+.tech{
+    display: flex;
+    justify-content: space-around;
+}
+.icons h2{
+    padding-bottom: 10px;
+}
+.projects{
+    background-color:aliceblue;
+    height: 50vh;
+    display: flex;
+    justify-content:space-between;
+    padding:20px var(--text-padding) ;
+}
+.projects img{
+    height: 400px;
+}
+.projects a{
+    font-size: 1rem;
+}
